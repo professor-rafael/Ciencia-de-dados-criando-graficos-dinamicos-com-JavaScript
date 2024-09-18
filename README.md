@@ -1,1 +1,1 @@
-# Ciencia-de-dados-criando-gr-ficos-dinamicos-com-JavaScript
+# Ciencia-de-dados-criando-graficos-dinamicos-com-JavaScript
