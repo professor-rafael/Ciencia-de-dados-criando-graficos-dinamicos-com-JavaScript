@@ -1,4 +1,4 @@
-const url = 'https://github.com/professor-rafael/Ciencia-de-dados-criando-graficos-dinamicos-com-JavaScript'
+const url = "https://github.com/professor-rafael/Ciencia-de-dados-criando-graficos-dinamicos-com-JavaScript"
 
 async function vizualizarInformacoesGlobais() {
     const res = await fetch(url)
