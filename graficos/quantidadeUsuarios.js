@@ -1,7 +1,7 @@
 import { getCSS, tickConfig } from "./common.js"
 
 async function quantidadeUsuariosPorRede() {
-    const url = 'https://github.com/professor-rafael/Ciencia-de-dados-criando-graficos-dinamicos-com-JavaScript'
+    const url = "https://github.com/professor-rafael/Ciencia-de-dados-criando-graficos-dinamicos-com-JavaScript"
     const res = await fetch(url)
     const dados = await res.json()
     const nomeDasRedes = Object.keys(dados)
