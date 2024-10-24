@@ -50,14 +50,14 @@ nav a:hover {
 .graficos-container {
     margin: 5rem;
     filter: drop-shadow(1px 1px 20px rgb(23, 136, 55));
-    border-radius: 10px;
+    border: 10px yellow double;
 
 }
 
 .grafico {
     margin-top: 3rem;
     filter: drop-shadow(1px 1px 20px rgb(23, 136, 55));
-    border-radius: 10px;
+    border: 10px yellow double;
 }
 
 .graficos-container__texto {
@@ -82,7 +82,7 @@ footer {
     height: 3rem;
     margin-top: 2rem;
     filter: drop-shadow(1px 1px 20px rgb(0, 16, 5));
-    border-radius: 10px;
+    border: 10px yellow double;
 }
 
 p {
@@ -114,7 +114,7 @@ ul {
     transform: translateX(-50%);
     color: #fff;
     padding: 6px 10px;
-    border-radius: 5px;
+    border-radius: 5px; <--!rafael-->
     opacity: 0;
     visibility: hidden;
     font-size: 14px;
