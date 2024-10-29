@@ -50,14 +50,14 @@ nav a:hover {
 .graficos-container {
     margin: 5rem;
     filter: drop-shadow(1px 1px 20px rgb(23, 136, 55));
-    border: 10px yellow double;
+    border: 10px green;
 
 }
 
 .grafico {
     margin-top: 3rem;
     filter: drop-shadow(1px 1px 20px rgb(23, 136, 55));
-    border: 10px yellow double;
+    border: 10px green;
 }
 
 .graficos-container__texto {
@@ -82,7 +82,7 @@ footer {
     height: 3rem;
     margin-top: 2rem;
     filter: drop-shadow(1px 1px 20px rgb(0, 16, 5));
-    border: 10px yellow double;
+    border: 10px green;
 }
 
 p {
