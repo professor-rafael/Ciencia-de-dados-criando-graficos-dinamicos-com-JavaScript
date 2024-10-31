@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
 :root {
-    --bg-color: #222831;
-    --primary-color: #c29090;
-    --secondary-color: #F05454;
-    --font: "Nunito Sans", sans-serif;
+    --bg-color: rgb(32, 5, 5);
+    --primary-color: green;
+    --secondary-color: green;
+    --font: monaspace;
 }
 
 body {
@@ -13,6 +13,7 @@ body {
     font-family: var(--font);
     height: 100vh;
     margin: 0;
+    background: url('bg-desktop.webp');
 }
 
 header {
@@ -42,22 +43,24 @@ nav a {
 }
 
 nav a:hover {
-    text-decoration: underline;
+    text-decoration: none;
     transform: scale(0.90);
     transition: transform 0.1s;
+    font: bold;
+    font-family: 22px;
 }
 
 .graficos-container {
     margin: 5rem;
-    filter: drop-shadow(1px 1px 20px rgb(23, 136, 55));
-    border: 10px green;
+    filter: drop-shadow(1px 1px 20px rgb(1, 13, 4));
+    border-radius: 10px;
 
 }
 
 .grafico {
     margin-top: 3rem;
-    filter: drop-shadow(1px 1px 20px rgb(23, 136, 55));
-    border: 10px green;
+    filter: box-shadow(1px 1px 20px rgb(186, 206, 192));
+    border: 8px green double;
 }
 
 .graficos-container__texto {
@@ -81,14 +84,15 @@ footer {
     width: 100%;
     height: 3rem;
     margin-top: 2rem;
-    filter: drop-shadow(1px 1px 20px rgb(0, 16, 5));
+    filter: drop-shadow(1px 1px 20px rgb(164, 211, 179));
+    border-radius: 10px;
 }
 
 p {
-    color: black;
+    color: rgb(199, 168, 168);
     text-decoration: none;
     font-size: larger;
-    font-size: 24px;
+    font-size: 32px;
     font-weight: bolder;
 }
 
@@ -111,9 +115,9 @@ ul {
     top: -30px;
     left: 50%;
     transform: translateX(-50%);
-    color: #fff;
+    color: #390909;
     padding: 6px 10px;
-    border-radius: 5px; <--!rafael-->
+    border-radius: 5px;
     opacity: 0;
     visibility: hidden;
     font-size: 14px;
@@ -147,7 +151,7 @@ ul {
     height: 30px;
   }
   .example-2 .icon-content a:hover {
-    color: white;
+    color: rgb(54, 20, 20);
   }
   .example-2 .icon-content a .filled {
     position: absolute;
