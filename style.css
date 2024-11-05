@@ -283,6 +283,6 @@ ul {
   
   .acoes button:hover,
   #arquivo-label:hover {
-    background-color: white;
+    background-color: green double;
   }
   
