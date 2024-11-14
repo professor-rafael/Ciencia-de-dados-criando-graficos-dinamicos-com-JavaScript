@@ -29,6 +29,34 @@
     <script src="graficos/scripts.js" defer></script>
    <br>
    <br>
+     <div class="container">
+    <h1> <span>Conversor de Texto para Fala</span></h1>
+    <p>Digite um texto ou envie algum arquivo para ser lido:</p>
+    <div id="entrada-de-conteudo">
+      <textarea
+        placeholder="Digite alguma coisa..."
+        id="entrada-de-texto"
+      ></textarea>
+      <div>
+        <label for="upload-arquivo" id="arquivo-label">Enviar arquivo</label>
+        <input type="file" id="upload-arquivo" accept=".txt" />
+      </div>
+    </div>
+    <div class="acoes">
+      <div class="acao-box">
+        <p>Selecione a voz:</p>
+        <select id="selecao-voz"></select>
+      </div>
+      <div class="acao-box">
+        <p>Clique para ouvir:</p>
+        <button id="ouvir-btn">Ouvir</button>
+      </div>
+      <div class="acao-box">
+        <p>Obtenha um arquivo do conteúdo:</p>
+        <button id="baixar-texto-btn">Baixar Texto</button>
+      </div>
+    </div>
+  </div>
     <ul class="example-2">
       <li class="icon-content">
         <a
@@ -121,35 +149,5 @@
     </ul>
     
   <br>
-
-
-  <div class="container">
-    <h1> <span>Conversor de Texto para Fala</span></h1>
-    <p>Digite um texto ou envie algum arquivo para ser lido:</p>
-    <div id="entrada-de-conteudo">
-      <textarea
-        placeholder="Digite alguma coisa..."
-        id="entrada-de-texto"
-      ></textarea>
-      <div>
-        <label for="upload-arquivo" id="arquivo-label">Enviar arquivo</label>
-        <input type="file" id="upload-arquivo" accept=".txt" />
-      </div>
-    </div>
-    <div class="acoes">
-      <div class="acao-box">
-        <p>Selecione a voz:</p>
-        <select id="selecao-voz"></select>
-      </div>
-      <div class="acao-box">
-        <p>Clique para ouvir:</p>
-        <button id="ouvir-btn">Ouvir</button>
-      </div>
-      <div class="acao-box">
-        <p>Obtenha um arquivo do conteúdo:</p>
-        <button id="baixar-texto-btn">Baixar Texto</button>
-      </div>
-    </div>
-  </div>
-</body>
+ </body>
 </html>
