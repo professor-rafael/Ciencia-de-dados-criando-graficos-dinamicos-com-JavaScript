@@ -269,7 +269,7 @@ ul {
   }
   
   .acoes button {
-    background-color:greenyellow;
+    background-color:green;
     color: black;
   
     transition: 0.3s;
@@ -283,6 +283,7 @@ ul {
   
   .acoes button:hover,
   #arquivo-label:hover {
-    background-color: green;
+    background-color: black;
+      border: double purple;
   }
   
